@@ -1,0 +1,214 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+/*custom fonts*/
+@font-face{
+	font-family: pacifico;
+	src: url(font pacifico.eot); /*.eot file for IE*/
+}
+
+@font-face{
+	font-family: pacifico;
+	src:url("fonts/pacifico.ttf"); /*.ttf file for CSS3 Browser*/
+}
+
+@font-face{
+	font-family: bebas;
+	src:url("fonts/bebes.eot"); /*.eot file for IE*/
+}
+
+@font-face{
+	font-family: bebas;
+	src:url("fonts/bebes.ttf"); /*.ttf file for CSS3 Browser*/
+}
+
+/*end custom fonts*/
+
+
+/*header section starts from here*/
+
+.header{
+	border: 2px solid blue;
+	padding: 20px 0;
+	overflow: hidden;
+}
+
+.logo{
+	border: 2px solid red;
+	width: 25%;
+	box-sizing: border-box;
+	float: left;
+}
+
+.logo h1{
+	font-family: pacifico;
+	margin: 0;
+}
+
+.menubar{
+	padding: 0;
+	margin: 0;
+	width: 65%;
+	float: right;
+	border: 2px solid grey;
+	box-sizing: border-box;
+}
+
+.menubar ul{
+	margin-left: 50px;
+}
+
+.menubar ul li{
+	padding: 10px;
+	float: left;
+	font-size: 16px;
+	display: inline-block; 
+	text-transform: uppercase;
+	font-family: bebas;
+	color: grey;
+}
+
+.menubar ul li span{
+	font-size: 20px;
+	display: block;
+	color: black;
+	font-weight: bold;
+}
+
+/* End of header section */
+
+/* Slider section starts from here */
+
+.slider{
+	border: 4px solid green;
+	position: relative;
+}
+
+.slider_img img{
+	width: 100%;
+}
+
+.slider_text{
+	width: 25%;
+	background: grey;
+	position: absolute;
+	bottom: 0;
+	font-family: bebas;
+	padding: 0;
+	line-height: 0;
+}
+/* slider image section close here*/
+
+/* Projects section starts from here*/
+
+.projects{
+	border: 2px solid blue;
+	box-sizing: border-box;
+
+}
+
+.project{
+	width: 33.33%;
+	box-sizing: border-box;
+	border: 2px solid green;
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+.project_title{
+	border: 1px solid yellow;
+	overflow: hidden;
+}
+
+.pro_title{
+	width: 75%;
+	border: 1px solid red;
+	float: right;
+	text-transform: uppercase;
+	font-family: bebas;
+
+}
+
+.icon_img{
+	width: 20%;
+	border: 1px solid blue;
+	float: left;
+	margin-top: 35px;
+	box-sizing: border-box;
+	
+}
+
+
+.icon{
+	font-size: 20px;
+}
+
+.work_section{
+	width: 100%;
+	border: 2px solid yellow;
+}
+
+.work_title{
+	margin: 0;
+	padding: 0;
+	border: 2px solid grey;
+	background: grey;
+	text-align: center;
+	line-height: 0;
+	font-family: bebas;
+}
+
+.works{
+	padding: 0;
+	margin-top: 50px;
+	width: 25%;
+	border: 2px solid blue;
+	box-sizing: border-box;
+	display: inline-block;
+	text-align: justify;
+	font-family: bebas;
+
+}
+
+.works img{
+	width: 100%;
+	position: relative;
+	display: block;
+}
+
+
+/*end of work section*/
+
+.footer{
+	border: 2px solid green;
+	border-style: dotted; 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+	line-height: 0;
+}
+
+.copyright{
+	margin: 0;
+	padding: 0;
+	border: 2px solid red;
+	float: left;
+	box-sizing: border-box;
+}
+.developer{
+	margin: 0;
+	padding: 0;
+	border: 2px solid red;
+	float: right;
+	box-sizing: border-box;
+}
+
